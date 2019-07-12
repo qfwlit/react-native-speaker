@@ -41,7 +41,7 @@ public class SpeakerModule extends ReactContextBaseJavaModule {
 
         if (speaker.equals(SPEAKER)){
             audioManager.setSpeakerphoneOn(true);
-            audioManager.setMode(AudioManager.MODE_NORMAL);
+            audioManager.setMode(AudioManager.MODE_IN_COMMUNICATION);
         }
         else if (speaker.equals(EARPIECE)){
             audioManager.setSpeakerphoneOn(false);
@@ -61,7 +61,7 @@ public class SpeakerModule extends ReactContextBaseJavaModule {
         if (mode == AudioManager.MODE_IN_CALL){
             callback.invoke(null,EARPIECE);
         }
-        else if (mode == AudioManager.MODE_NORMAL){
+        else if (mode == AudioManager.MODE_IN_COMMUNICATION){
             callback.invoke(null,SPEAKER);
         }
         else {
