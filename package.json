@@ -1,0 +1,43 @@
+{
+  "_from": "react-native-speaker",
+  "_id": "react-native-speaker@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-q5zKhupv58bvUsXvxdxkiSv9yjI=",
+  "_location": "/react-native-speaker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-speaker",
+    "name": "react-native-speaker",
+    "escapedName": "react-native-speaker",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-speaker/download/react-native-speaker-1.0.3.tgz",
+  "_shasum": "ab9cca86ea6fe7c6ef52c5efc5dc64892bfdca32",
+  "_spec": "react-native-speaker",
+  "_where": "D:\\work\\code\\jinliao\\trunk\\app",
+  "author": {
+    "name": "lcg"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />",
+  "keywords": [
+    "anren",
+    "speaker"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-speaker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
